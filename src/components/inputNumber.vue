@@ -13,7 +13,7 @@ export default class InputNumber extends Vue {
   @Prop() private value!: number;
 
   get val(){
-    console.log(12)
+    console.log(13)
     return this.value+1
   }
 
