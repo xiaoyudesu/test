@@ -1,7 +1,6 @@
 <template>
   <div>
     <input type="text" v-model.number="val">
-
   </div>
 </template>
 
@@ -13,7 +12,7 @@ export default class InputNumber extends Vue {
   @Prop() private value!: number;
 
   get val(){
-    console.log(13)
+    console.log('test')
     return this.value+1
   }
 
